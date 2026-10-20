@@ -1,4 +1,4 @@
-# Hey there, I'm Yashas Yadav 👋
+# Hey there, I'm Yashas Yadav
 
 ## Full Stack Engineer | Building Scalable Systems with AI & Data
 
@@ -8,10 +8,10 @@ I build intelligent, production-ready applications that connect complex backend 
 
 | Category | Details |
 | :------- | :------- |
-| 🔭 I'm currently working on | AI-powered tools and real-time web applications |
-| 🌱 I'm currently learning | System design and advanced agentic workflows with MCP |
-| 🤝 I'm looking to collaborate on | Open-source projects in AI/ML, computer vision, or data engineering |
-| 💬 Ask me about | Python, TypeScript, WebRTC, YOLOv8, and BigQuery |
+| I'm currently working on | AI-powered tools and real-time web applications |
+| I'm currently learning | System design and advanced agentic workflows with MCP |
+| I'm looking to collaborate on | Open-source projects in AI/ML, computer vision, or data engineering |
+| Ask me about | Python, TypeScript, WebRTC, YOLOv8, and BigQuery |
 
 ## Tech Stack
 
@@ -44,17 +44,6 @@ I build intelligent, production-ready applications that connect complex backend 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-## GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yashas004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yashas Yadav's GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashas004&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=yashas004&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
-</div>
-
 ## Featured Projects
 
 | Project | Description | Tech |
@@ -76,8 +65,4 @@ I build intelligent, production-ready applications that connect complex backend 
   <a href="mailto:yashasyadav04@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-</div>
-
-<div align="center">
-  <i>Fun fact: Curiosity drives better code than perfection ever could.</i>
 </div>
