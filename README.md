@@ -11,11 +11,12 @@ I build intelligent, production-ready applications that bridge AI/ML models with
 | I'm currently working on | AI/ML powered tools and real-time full-stack applications |
 | I'm currently learning | System design and advanced agentic workflows with MCP |
 | I'm looking to collaborate on | Open-source projects in AI/ML, computer vision, or full-stack engineering |
-| Ask me about | Python, PyTorch, TypeScript, WebRTC, YOLOv8, and BigQuery |
+| Ask me about | Python, Java, PyTorch, TypeScript, WebRTC, YOLOv8, and BigQuery |
 
 ## Tech Stack
 
 ### Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
