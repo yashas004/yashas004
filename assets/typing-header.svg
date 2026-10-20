@@ -1,0 +1,32 @@
+<svg width="1200" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yashas Yadav typing header</title>
+  <desc id="desc">Typing animation showing Full Stack plus AI slash ML Engineer, Building Intelligent Systems, and Shipping Scalable AI Solutions</desc>
+  <defs>
+    <style><![CDATA[
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .anim { animation: none !important; }
+        animate, animateTransform { display: none !important; }
+      }
+    ]]></style>
+  </defs>
+  <rect width="1200" height="80" fill="none"/>
+  <text x="20" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" fill="#58A6FF">&gt; </text>
+  <g>
+    <text x="50" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" fill="#C9D1D9">Full Stack + AI/ML Engineer
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.28;0.33" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="50" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" fill="#C9D1D9">Building Intelligent Systems
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.33;0.61;0.66" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="50" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" fill="#C9D1D9">Shipping Scalable AI Solutions
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.66;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect x="420" y="32" width="10" height="24" fill="#58A6FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

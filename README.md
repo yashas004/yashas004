@@ -1,4 +1,6 @@
-# Hey there, I'm Yashas Yadav
+<p align="center">
+  <img src="assets/typing-header.svg" alt="Typing animation showing Full Stack plus AI slash ML Engineer, Building Intelligent Systems, and Shipping Scalable AI Solutions" width="100%"/>
+</p>
 
 ## Full Stack + AI/ML Engineer | Building Intelligent, Scalable Systems
 
@@ -67,3 +69,7 @@ I build intelligent, production-ready applications that bridge AI/ML models with
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
+
+<p align="center">
+  <img src="assets/footer-glow.svg" alt="Animated glowing footer divider" width="100%"/>
+</p>
