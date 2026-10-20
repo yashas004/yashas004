@@ -1,0 +1,36 @@
+<svg width="1000" height="40" viewBox="0 0 1000 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titledivider descdivider">
+<title id="titledivider">divider</title>
+<desc id="descdivider">divider</desc>
+<defs>
+<style><![CDATA[
+.bg{fill:#0A0E1A;}
+.surface{fill:#111827;stroke:#1F2937;stroke-width:1;}
+.text{fill:#E5E7EB;}
+.muted{fill:#94A3B8;}
+.accent1{fill:#38BDF8;}
+.accent2{fill:#A78BFA;}
+.accent3{fill:#34D399;}
+.border{stroke:#1F2937;stroke-width:1;fill:none;}
+@keyframes shimmer{0%{transform:translateX(-200px);}100%{transform:translateX(1400px);}}
+@keyframes pulse{0%,100%{opacity:0.4;}50%{opacity:1;}}
+@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:0;}}
+@keyframes sweep{0%{transform:translateX(-400px);}100%{transform:translateX(1500px);}}
+@keyframes rotate{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+@media (prefers-reduced-motion: reduce){
+  .anim,.shimmer,.pulse,.blink,.sweep,.rotate{animation:none !important;}
+  animate,animateTransform,animateMotion{display:none !important;}
+}
+]]></style>
+<clipPath id="clipdivider"><rect x="16" y="16" width="968" height="8" rx="16" ry="16"/></clipPath>
+<linearGradient id="graddivider" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#38BDF8"/>
+<stop offset="50%" stop-color="#A78BFA"/>
+<stop offset="100%" stop-color="#38BDF8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="40" fill="none"/>
+<rect x="16" y="16" width="968" height="8" rx="16" ry="16" class="surface"/>
+<rect x="16" y="16" width="968" height="8" rx="16" ry="16" class="border" fill="none"/>
+<g clip-path="url(#clipdivider)">
+<line x1="32" y1="20" x2="968" y2="20" stroke="url(#graddivider)" stroke-width="1"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="6s" repeatCount="indefinite"/></line></g>
+</svg>

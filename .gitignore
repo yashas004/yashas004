@@ -1,0 +1,6 @@
+scripts/venv/
+scripts/.fonts/
+scripts/forbidden.txt
+scripts/PLAN.md
+preview/
+node_modules/
