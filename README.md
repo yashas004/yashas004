@@ -1,4 +1,3 @@
-```markdown
 # Hey there, I'm Yashas Yadav 👋
 
 ## Full Stack Engineer | Building Scalable Systems with AI & Data
@@ -82,4 +81,3 @@ I build intelligent, production-ready applications that connect complex backend 
 <div align="center">
   <i>Fun fact: Curiosity drives better code than perfection ever could.</i>
 </div>
-``` 
