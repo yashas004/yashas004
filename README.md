@@ -1,48 +1,85 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Yashas Yadav with animated terminal showing personal projects, AI agents and computer vision, and real-time web apps" width="100%"/>
-</p>
+```markdown
+# Hey there, I'm Yashas Yadav 👋
 
-<p align="center">
-  <img src="assets/about-terminal.svg" alt="Terminal output showing whoami and project list" width="100%"/>
-</p>
+## Full Stack Engineer | Building Scalable Systems with AI & Data
 
-<p align="center">
-  <img src="assets/focus.svg" alt="Focus areas for AI agents, computer vision, and real-time web apps" width="100%"/>
-</p>
+I build intelligent, production-ready applications that connect complex backend systems with intuitive user interfaces. Focused on agentic workflows, computer vision, and high-throughput data solutions.
 
-<p align="center">
-  <img src="assets/stack.svg" alt="Tech stack badges" width="100%"/>
-</p>
+## About Me
 
-<p align="center">
-  <a href="https://github.com/yashas004/Persona.AI"><img src="assets/project-persona.svg" alt="Persona.AI project card" width="100%"/></a>
-</p>
-<p align="center">
-  <a href="https://github.com/yashas004/PriorAuth"><img src="assets/project-priorauth.svg" alt="PriorAuth project card" width="100%"/></a>
-</p>
-<p align="center">
-  <a href="https://github.com/yashas004/SecureWays"><img src="assets/project-secureways.svg" alt="SecureWays project card" width="100%"/></a>
-</p>
-<p align="center">
-  <a href="https://github.com/yashas004/Finways"><img src="assets/project-finways.svg" alt="Finways project card" width="100%"/></a>
-</p>
+| Category | Details |
+| :------- | :------- |
+| 🔭 I'm currently working on | AI-powered tools and real-time web applications |
+| 🌱 I'm currently learning | System design and advanced agentic workflows with MCP |
+| 🤝 I'm looking to collaborate on | Open-source projects in AI/ML, computer vision, or data engineering |
+| 💬 Ask me about | Python, TypeScript, WebRTC, YOLOv8, and BigQuery |
 
-<p align="center">
-  <img src="assets/build-loop.svg" alt="Build loop animation" width="100%"/>
-</p>
+## Tech Stack
 
-<p align="center">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/yashas004/yashas004/output/snake-dark.svg" media="(prefers-color-scheme: dark)">
-    <img src="https://raw.githubusercontent.com/yashas004/yashas004/output/snake-light.svg" alt="GitHub contribution snake animation" width="100%"/>
-  </picture>
-</p>
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-<p align="center">
-  <a href="mailto:yashasyadav04@gmail.com"><img src="assets/contact-email.svg" alt="Email" width="300"/></a>
-  <a href="https://www.youtube.com/@yashasyadav04"><img src="assets/contact-youtube.svg" alt="YouTube" width="300"/></a>
-</p>
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
-<p align="center">
-  <img src="assets/footer.svg" alt="Footer waveform" width="100%"/>
-</p>
+### AI, Data & Vision
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
+![Model Context Protocol](https://img.shields.io/badge/MCP-4B32C3?style=for-the-badge)
+![Google BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)
+
+### Tools & Cloud
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yashas004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yashas Yadav's GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashas004&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=yashas004&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
+</div>
+
+## Featured Projects
+
+| Project | Description | Tech |
+| :------- | :----------- | :--- |
+| [**Persona.AI**](https://github.com/yashas004/Persona.AI) | AI-powered communication coaching platform using WebRTC streams and LLMs for contextual speech feedback. | `TypeScript` `WebRTC` `LLM` |
+| [**PriorAuth**](https://github.com/yashas004/PriorAuth) | 3-tool MCP pipeline for automating healthcare prior authorization workflows, built in a 48-hour hackathon. | `Python` `MCP` |
+| [**SecureWays**](https://github.com/yashas004/SecureWays) | Edge-ready computer vision pipeline using fine-tuned YOLOv8 models for real-time anomaly detection in traffic video. | `Python` `YOLOv8` `OpenCV` `Jupyter` |
+| [**Finways**](https://github.com/yashas004/Finways) | AI-driven layer for optimizing decentralized transaction routing and mitigating block latency. | `HTML` `JavaScript` |
+
+## Connect With Me
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/yashas-yadav/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.youtube.com/@yashasyadav04">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+  </a>
+  <a href="mailto:yashasyadav04@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</div>
+
+<div align="center">
+  <i>Fun fact: Curiosity drives better code than perfection ever could.</i>
+</div>
+``` 
