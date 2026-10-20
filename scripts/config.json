@@ -1,0 +1,76 @@
+{
+  "name": "Yashas Yadav",
+  "roles": ["Software Engineer", "BigQuery data connectors in Java", "AI/ML and full-stack projects"],
+  "about": [
+    "B.Tech in Computer Science and Engineering from VIT-AP University (2026).",
+    "I build intelligent, production-grade applications that bridge AI models with scalable user interfaces.",
+    "I focus on practical solutions across agentic workflows, computer vision, and data systems."
+  ],
+  "focus": [
+    {"title": "Data connectors", "desc": "Building reliable data connectors for scalable systems."},
+    {"title": "AI agents", "desc": "Designing agentic workflows with clear tool use."},
+    {"title": "Computer vision", "desc": "Applying vision models to real world detection tasks."}
+  ],
+  "tech": [
+    "Java", "Python", "TypeScript", "JavaScript", "SQL", "BigQuery", "AWS",
+    "PyTorch", "YOLOv8", "MCP", "OpenCV", "Node.js", "React", "Docker", "Git", "Linux"
+  ],
+  "projects": [
+    {
+      "name": "Persona.AI",
+      "desc": "Browser-based AI communication coaching with WebRTC and LLMs (TypeScript), live deployed.",
+      "tags": ["TypeScript", "WebRTC", "LLMs"],
+      "url": "https://github.com/yashas004/Persona.AI"
+    },
+    {
+      "name": "PriorAuth",
+      "desc": "3-tool MCP pipeline for prior authorization workflows, built in a 48-hour hackathon (Python).",
+      "tags": ["Python", "MCP"],
+      "url": "https://github.com/yashas004/PriorAuth"
+    },
+    {
+      "name": "SecureWays",
+      "desc": "YOLOv8 anomaly detection for traffic video (Jupyter Notebook).",
+      "tags": ["Jupyter Notebook", "YOLOv8", "OpenCV"],
+      "url": "https://github.com/yashas004/SecureWays"
+    },
+    {
+      "name": "Finways",
+      "desc": "AI layer for decentralized transaction routing (HTML, JavaScript).",
+      "tags": ["HTML", "JavaScript"],
+      "url": "https://github.com/yashas004/Finways"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/yashas-yadav/",
+    "email": "yashasyadav04@gmail.com",
+    "youtube": "https://www.youtube.com/@yashasyadav04"
+  },
+  "colors": {
+    "light": {
+      "bg": "#f7f9fc",
+      "surface": "#ffffff",
+      "text": "#0f172a",
+      "text2": "#475569",
+      "accent1": "#2563eb",
+      "accent2": "#22d3ee",
+      "accent3": "#a78bfa",
+      "border": "#e2e8f0",
+      "grid": "#cbd5e1"
+    },
+    "dark": {
+      "bg": "#0b1026",
+      "surface": "#10162a",
+      "text": "#e6eaf2",
+      "text2": "#a9b1c3",
+      "accent1": "#60a5fa",
+      "accent2": "#22d3ee",
+      "accent3": "#a78bfa",
+      "border": "#1f2640",
+      "grid": "#27314f"
+    }
+  },
+  "snake": {
+    "outputBranch": "output"
+  }
+}
