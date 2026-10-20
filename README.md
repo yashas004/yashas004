@@ -1,17 +1,17 @@
 # Hey there, I'm Yashas Yadav
 
-## Full Stack Engineer | Building Scalable Systems with AI & Data
+## Full Stack + AI/ML Engineer | Building Intelligent, Scalable Systems
 
-I build intelligent, production-ready applications that connect complex backend systems with intuitive user interfaces. Focused on agentic workflows, computer vision, and high-throughput data solutions.
+I build intelligent, production-ready applications that bridge AI/ML models with scalable full-stack interfaces. Focused on agentic workflows, computer vision, and high-throughput systems.
 
 ## About Me
 
 | Category | Details |
 | :------- | :------- |
-| I'm currently working on | AI-powered tools and real-time web applications |
+| I'm currently working on | AI/ML powered tools and real-time full-stack applications |
 | I'm currently learning | System design and advanced agentic workflows with MCP |
-| I'm looking to collaborate on | Open-source projects in AI/ML, computer vision, or data engineering |
-| Ask me about | Python, TypeScript, WebRTC, YOLOv8, and BigQuery |
+| I'm looking to collaborate on | Open-source projects in AI/ML, computer vision, or full-stack engineering |
+| Ask me about | Python, PyTorch, TypeScript, WebRTC, YOLOv8, and BigQuery |
 
 ## Tech Stack
 
