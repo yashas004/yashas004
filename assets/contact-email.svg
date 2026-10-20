@@ -1,0 +1,41 @@
+<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titlecontact-email desccontact-email">
+<title id="titlecontact-email">contact-email</title>
+<desc id="desccontact-email">contact-email</desc>
+<defs>
+<style><![CDATA[
+.bg{fill:#0A0E1A;}
+.surface{fill:#111827;stroke:#1F2937;stroke-width:1;}
+.text{fill:#E5E7EB;}
+.muted{fill:#94A3B8;}
+.accent1{fill:#38BDF8;}
+.accent2{fill:#A78BFA;}
+.accent3{fill:#34D399;}
+.border{stroke:#1F2937;stroke-width:1;fill:none;}
+@keyframes float{0%,100%{transform:translateY(0px);}50%{transform:translateY(-6px);}}
+@keyframes glow{0%,100%{opacity:0.4;}50%{opacity:0.9;}}
+@keyframes scan{0%{transform:translateY(-120px);}100%{transform:translateY(200px);}}
+@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:0;}}
+@keyframes dash{to{stroke-dashoffset:0;}}
+@keyframes pulse{0%,100%{opacity:0.3;}50%{opacity:1;}}
+@media (prefers-reduced-motion: reduce){
+  .anim,.float,.glow,.scan,.blink,.dash,.pulse{animation:none !important;}
+  animate,animateTransform,animateMotion{display:none !important;}
+}
+]]></style>
+<clipPath id="clipcontact-email"><rect x="24" y="24" width="272" height="42" rx="18" ry="18"/></clipPath>
+<linearGradient id="gcontact-email" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#38BDF8"><animate attributeName="stop-color" values="#38BDF8;#A78BFA;#38BDF8" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="100%" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#38BDF8;#A78BFA" dur="8s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="blurcontact-email"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect x="0" y="0" width="320" height="90" fill="none"/>
+<rect x="24" y="24" width="272" height="42" rx="18" ry="18" class="surface"/>
+<rect x="24" y="24" width="272" height="42" rx="18" ry="18" class="border" fill="none"/>
+<g clip-path="url(#clipcontact-email)">
+<rect x="30" y="20" width="260" height="50" rx="25" stroke="#1F2937" fill="none"/><path d="M100 0V730H520V648H189V422H485V341H189V82H520V0Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,52.0,48.0)"/>
+<path d="M66 0V550H145V484H151Q156 513 174 533Q198 560 240 560Q286 560 311 526Q324 509 330 484H334Q339 513 358 533Q383 560 425 560Q477 560 505.5 521.0Q534 482 534 418V0H451V419Q451 453 436.5 472.0Q422 491 394 491Q367 491 351.5 472.5Q336 454 336 420V0H264V419Q264 454 248.5 472.5Q233 491 205.0 491.0Q177 491 163.0 472.5Q149 454 149 420V0Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,58.5,48.0)"/>
+<path d="M252 -10Q165 -10 115.0 34.5Q65 79 65 155Q65 232 115.0 276.0Q165 320 250 320H420V375Q420 426 389.5 453.5Q359 481 303 481Q254 481 221.0 460.5Q188 440 183 405H93Q102 476 160.0 518.0Q218 560 305 560Q400 560 455.0 511.0Q510 462 510 378V0H422V105H421Q416 56 376 25Q329 -10 252 -10ZM274 61Q338 61 379.0 93.0Q420 125 420 175V253H252Q207 253 181.0 228.0Q155 203 155 160Q155 114 186.5 87.5Q218 61 274 61Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,65.0,48.0)"/>
+<path d="M85 0V82H280V468H110V550H370V82H555V0ZM315 649Q282 649 263.0 666.0Q244 683 244 712Q244 742 263.0 759.5Q282 777 315 777Q348 777 367.0 759.5Q386 742 386 712Q386 683 367.0 666.0Q348 649 315 649Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,71.5,48.0)"/>
+<path d="M375 0Q327 0 291.0 19.0Q255 38 235.0 73.0Q215 108 215 155V648H30V730H305V155Q305 121 324.0 101.5Q343 82 375 82H550V0Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,78.0,48.0)"/></g>
+</svg>

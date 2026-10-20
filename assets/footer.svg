@@ -1,0 +1,37 @@
+<svg width="1000" height="110" viewBox="0 0 1000 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titlefooter descfooter">
+<title id="titlefooter">footer</title>
+<desc id="descfooter">footer</desc>
+<defs>
+<style><![CDATA[
+.bg{fill:#0A0E1A;}
+.surface{fill:#111827;stroke:#1F2937;stroke-width:1;}
+.text{fill:#E5E7EB;}
+.muted{fill:#94A3B8;}
+.accent1{fill:#38BDF8;}
+.accent2{fill:#A78BFA;}
+.accent3{fill:#34D399;}
+.border{stroke:#1F2937;stroke-width:1;fill:none;}
+@keyframes float{0%,100%{transform:translateY(0px);}50%{transform:translateY(-6px);}}
+@keyframes glow{0%,100%{opacity:0.4;}50%{opacity:0.9;}}
+@keyframes scan{0%{transform:translateY(-120px);}100%{transform:translateY(200px);}}
+@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:0;}}
+@keyframes dash{to{stroke-dashoffset:0;}}
+@keyframes pulse{0%,100%{opacity:0.3;}50%{opacity:1;}}
+@media (prefers-reduced-motion: reduce){
+  .anim,.float,.glow,.scan,.blink,.dash,.pulse{animation:none !important;}
+  animate,animateTransform,animateMotion{display:none !important;}
+}
+]]></style>
+<clipPath id="clipfooter"><rect x="24" y="24" width="952" height="62" rx="18" ry="18"/></clipPath>
+<linearGradient id="gfooter" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#38BDF8"><animate attributeName="stop-color" values="#38BDF8;#A78BFA;#38BDF8" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="100%" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#38BDF8;#A78BFA" dur="8s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="blurfooter"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect x="0" y="0" width="1000" height="110" fill="none"/>
+<rect x="24" y="24" width="952" height="62" rx="18" ry="18" class="surface"/>
+<rect x="24" y="24" width="952" height="62" rx="18" ry="18" class="border" fill="none"/>
+<g clip-path="url(#clipfooter)">
+<path d="M 50 60 Q 250 40 450 60 T 850 60 T 950 60" stroke="url(#gfooter)" stroke-width="2" fill="none" opacity="0.8"><animate attributeName="d" values="M 50 60 Q 250 40 450 60 T 850 60 T 950 60;M 50 60 Q 250 75 450 60 T 850 60 T 950 60;M 50 60 Q 250 40 450 60 T 850 60 T 950 60" dur="8s" repeatCount="indefinite"/></path></g>
+</svg>

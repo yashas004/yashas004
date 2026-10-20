@@ -1,0 +1,43 @@
+<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titlecontact-youtube desccontact-youtube">
+<title id="titlecontact-youtube">contact-youtube</title>
+<desc id="desccontact-youtube">contact-youtube</desc>
+<defs>
+<style><![CDATA[
+.bg{fill:#0A0E1A;}
+.surface{fill:#111827;stroke:#1F2937;stroke-width:1;}
+.text{fill:#E5E7EB;}
+.muted{fill:#94A3B8;}
+.accent1{fill:#38BDF8;}
+.accent2{fill:#A78BFA;}
+.accent3{fill:#34D399;}
+.border{stroke:#1F2937;stroke-width:1;fill:none;}
+@keyframes float{0%,100%{transform:translateY(0px);}50%{transform:translateY(-6px);}}
+@keyframes glow{0%,100%{opacity:0.4;}50%{opacity:0.9;}}
+@keyframes scan{0%{transform:translateY(-120px);}100%{transform:translateY(200px);}}
+@keyframes blink{0%,49%{opacity:1;}50%,100%{opacity:0;}}
+@keyframes dash{to{stroke-dashoffset:0;}}
+@keyframes pulse{0%,100%{opacity:0.3;}50%{opacity:1;}}
+@media (prefers-reduced-motion: reduce){
+  .anim,.float,.glow,.scan,.blink,.dash,.pulse{animation:none !important;}
+  animate,animateTransform,animateMotion{display:none !important;}
+}
+]]></style>
+<clipPath id="clipcontact-youtube"><rect x="24" y="24" width="272" height="42" rx="18" ry="18"/></clipPath>
+<linearGradient id="gcontact-youtube" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#38BDF8"><animate attributeName="stop-color" values="#38BDF8;#A78BFA;#38BDF8" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="100%" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#38BDF8;#A78BFA" dur="8s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="blurcontact-youtube"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect x="0" y="0" width="320" height="90" fill="none"/>
+<rect x="24" y="24" width="272" height="42" rx="18" ry="18" class="surface"/>
+<rect x="24" y="24" width="272" height="42" rx="18" ry="18" class="border" fill="none"/>
+<g clip-path="url(#clipcontact-youtube)">
+<rect x="30" y="20" width="260" height="50" rx="25" stroke="#1F2937" fill="none"/><path d="M255 0V273L35 730H128L273 430Q285 405 292.0 387.5Q299 370 301 362Q303 370 310.5 387.5Q318 405 330 430L472 730H565L345 273V0Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,52.0,48.0)"/>
+<path d="M300 -8Q234 -8 186.0 17.0Q138 42 111.5 89.5Q85 137 85 202V348Q85 414 111.5 461.0Q138 508 186.0 533.0Q234 558 300 558Q366 558 414.0 533.0Q462 508 488.5 461.0Q515 414 515 349V202Q515 137 488.5 89.5Q462 42 414.0 17.0Q366 -8 300 -8ZM300 72Q359 72 392.0 105.0Q425 138 425 202V348Q425 412 392.0 445.0Q359 478 300 478Q242 478 208.5 445.0Q175 412 175 348V202Q175 138 208.5 105.0Q242 72 300 72Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,58.5,48.0)"/>
+<path d="M299 -10Q204 -10 147.0 46.5Q90 103 90 200V550H180V200Q180 138 212.0 103.5Q244 69 299 69Q355 69 387.5 103.5Q420 138 420 200V550H510V200Q510 103 452.0 46.5Q394 -10 299 -10Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,65.0,48.0)"/>
+<path d="M255 0V649H55V731H545V649H345V0Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,71.5,48.0)"/>
+<path d="M299 -10Q204 -10 147.0 46.5Q90 103 90 200V550H180V200Q180 138 212.0 103.5Q244 69 299 69Q355 69 387.5 103.5Q420 138 420 200V550H510V200Q510 103 452.0 46.5Q394 -10 299 -10Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,78.0,48.0)"/>
+<path d="M332 -10Q264 -10 223 27Q189 57 183 105H182V0H92V730H182V570L180 445H183Q189 492 224 523Q265 560 332 560Q415 560 465.0 505.0Q515 450 515 355V194Q515 100 465.0 45.0Q415 -10 332 -10ZM302 68Q359 68 392.0 102.0Q425 136 425 200V350Q425 414 392.0 448.0Q359 482 302 482Q247 482 214.5 447.0Q182 412 182 350V200Q182 138 214.5 103.0Q247 68 302 68Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,84.5,48.0)"/>
+<path d="M300 -10Q235 -10 186.5 16.0Q138 42 111.5 89.5Q85 137 85 200V350Q85 414 111.5 461.0Q138 508 186.5 534.0Q235 560 300.0 560.0Q365 560 413.5 534.0Q462 508 488.5 461.0Q515 414 515 350V253H173V200Q173 135 206.0 100.5Q239 66 300 66Q352 66 384.0 84.5Q416 103 423 140H513Q504 71 445.5 30.5Q387 -10 300 -10ZM427 321V350Q427 415 394.5 450.0Q362 485 300 485Q239 485 206.0 450.0Q173 415 173 350V321Z" fill="#E5E7EB" transform="matrix(0.013,0,0,-0.013,91.0,48.0)"/></g>
+</svg>
