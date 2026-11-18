@@ -66,16 +66,16 @@ I build intelligent, production-ready applications that bridge AI/ML models with
 <p align="center">
   <img src="assets/project-persona.svg" alt="Animated Persona.AI project card with an audio waveform" width="100%"/>
   <img src="assets/project-priorauth.svg" alt="Animated PriorAuth project card with a connected workflow" width="100%"/>
-  <img src="assets/project-secureways.svg" alt="Animated SecureWays project card with moving detection boxes" width="100%"/>
-  <img src="assets/project-finways.svg" alt="Animated Finways project card with flowing transaction links" width="100%"/>
+  <img src="assets/project-bq-cost-guard.svg" alt="Animated bq-cost-guard project card with a cost meter" width="100%"/>
+  <img src="assets/project-schema-drift-watch.svg" alt="Animated schema-drift-watch project card with a schema diff" width="100%"/>
 </p>
 
 | Project | Description | Tech |
 | :------- | :----------- | :--- |
-| [**Persona.AI**](https://github.com/yashas004/Persona.AI) | AI-powered communication coaching platform using WebRTC streams and LLMs for contextual speech feedback. | `TypeScript` `WebRTC` `LLM` |
-| [**PriorAuth**](https://github.com/yashas004/PriorAuth) | 3-tool MCP pipeline for automating healthcare prior authorization workflows, built in a 48-hour hackathon. | `Python` `MCP` |
-| [**SecureWays**](https://github.com/yashas004/SecureWays) | Edge-ready computer vision pipeline using fine-tuned YOLOv8 models for real-time anomaly detection in traffic video. | `Python` `YOLOv8` `OpenCV` `Jupyter` |
-| [**Finways**](https://github.com/yashas004/Finways) | AI-driven layer for optimizing decentralized transaction routing and mitigating block latency. | `HTML` `JavaScript` |
+| [**Persona.AI**](https://github.com/yashas004/Persona.AI) | An advanced AI-powered communication coaching platform utilizing WebRTC streams and LLMs for contextual speech feedback. Built with TypeScript. | `TypeScript` |
+| [**PriorAuth**](https://github.com/yashas004/PriorAuth) | Simulated production healthcare application executing a 3-tool MCP pipeline to automate medical prior authorization forms. | `Python` |
+| [**bq-cost-guard**](https://github.com/yashas004/bq-cost-guard) | MCP server that estimates BigQuery query cost via dry run and flags wasteful queries | `TypeScript` |
+| [**schema-drift-watch**](https://github.com/yashas004/schema-drift-watch) | Detect added, removed and retyped fields between two JSON schemas and classify each change as safe or breaking for a data warehouse. | `Python` |
 
 ## How I Build
 
