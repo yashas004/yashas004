@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="assets/typing-header.svg" alt="Typing animation showing Full Stack plus AI slash ML Engineer, Building Intelligent Systems, and Shipping Scalable AI Solutions" width="100%"/>
-</p>
-
-<p align="center">
   <img src="assets/hero.svg" alt="Animated hero card with orbiting rings, twinkling stars, and a cycling terminal" width="100%"/>
 </p>
 
