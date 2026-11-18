@@ -2,11 +2,25 @@
   <img src="assets/typing-header.svg" alt="Typing animation showing Full Stack plus AI slash ML Engineer, Building Intelligent Systems, and Shipping Scalable AI Solutions" width="100%"/>
 </p>
 
+<p align="center">
+  <img src="assets/hero.svg" alt="Animated hero card with orbiting rings, twinkling stars, and a cycling terminal" width="100%"/>
+</p>
+
 ## Full Stack + AI/ML Engineer | Building Intelligent, Scalable Systems
 
 I build intelligent, production-ready applications that bridge AI/ML models with scalable full-stack interfaces. Focused on agentic workflows, computer vision, and high-throughput systems.
 
+## What I Work On
+
+<p align="center">
+  <img src="assets/focus.svg" alt="Animated cards for AI agents, computer vision, and real-time web apps" width="100%"/>
+</p>
+
 ## About Me
+
+<p align="center">
+  <img src="assets/about-terminal.svg" alt="Animated terminal cycling through profile commands and project names" width="100%"/>
+</p>
 
 | Category | Details |
 | :------- | :------- |
@@ -16,6 +30,10 @@ I build intelligent, production-ready applications that bridge AI/ML models with
 | Ask me about | Python, Java, PyTorch, TypeScript, WebRTC, YOLOv8, and BigQuery |
 
 ## Tech Stack
+
+<p align="center">
+  <img src="assets/stack.svg" alt="Animated tech stack pills that drift and shimmer across three rows" width="100%"/>
+</p>
 
 ### Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -49,6 +67,13 @@ I build intelligent, production-ready applications that bridge AI/ML models with
 
 ## Featured Projects
 
+<p align="center">
+  <img src="assets/project-persona.svg" alt="Animated Persona.AI project card with an audio waveform" width="100%"/>
+  <img src="assets/project-priorauth.svg" alt="Animated PriorAuth project card with a connected workflow" width="100%"/>
+  <img src="assets/project-secureways.svg" alt="Animated SecureWays project card with moving detection boxes" width="100%"/>
+  <img src="assets/project-finways.svg" alt="Animated Finways project card with flowing transaction links" width="100%"/>
+</p>
+
 | Project | Description | Tech |
 | :------- | :----------- | :--- |
 | [**Persona.AI**](https://github.com/yashas004/Persona.AI) | AI-powered communication coaching platform using WebRTC streams and LLMs for contextual speech feedback. | `TypeScript` `WebRTC` `LLM` |
@@ -56,7 +81,17 @@ I build intelligent, production-ready applications that bridge AI/ML models with
 | [**SecureWays**](https://github.com/yashas004/SecureWays) | Edge-ready computer vision pipeline using fine-tuned YOLOv8 models for real-time anomaly detection in traffic video. | `Python` `YOLOv8` `OpenCV` `Jupyter` |
 | [**Finways**](https://github.com/yashas004/Finways) | AI-driven layer for optimizing decentralized transaction routing and mitigating block latency. | `HTML` `JavaScript` |
 
+## How I Build
+
+<p align="center">
+  <img src="assets/build-loop.svg" alt="Animated build loop moving from idea to prototype to test to ship" width="100%"/>
+</p>
+
 ## Connect With Me
+
+<p align="center">
+  <img src="assets/footer.svg" alt="Animated gradient waveform divider" width="100%"/>
+</p>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/yashas-yadav/">
