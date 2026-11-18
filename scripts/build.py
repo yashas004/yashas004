@@ -58,6 +58,21 @@ def text_to_paths(text, font_key, font_size, x=0, y=0, fill=PALETTE['text']):
     return '\n'.join(paths), cur_x
 
 
+def wrap_text(text, font_key, font_size, max_width):
+    lines = []
+    current = ''
+    for word in text.split():
+        candidate = f'{current} {word}'.strip()
+        if text_to_paths(candidate, font_key, font_size)[1] > max_width and current:
+            lines.append(current)
+            current = word
+        else:
+            current = candidate
+    if current:
+        lines.append(current)
+    return lines
+
+
 def starfield(seed, count, w, h):
     rng = random.Random(seed)
     dots = []
@@ -328,13 +343,13 @@ def gen_stack():
 
 def gen_project(fname, proj):
     svgid = fname.replace('.svg', '')
-    w, h = 1000, 240
+    w, h = 1000, 260
     svg = svg_start(w, h, svgid)
     svg += starfield(sum(fname.encode()), 20, w, h)
     svg += sweep(w, h, svgid, '8s')
     svg += scan_beam(w, h, svgid, '9s')
     svg += '<g><animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="6s" repeatCount="indefinite"/>'
-    svg += f'<rect x="60" y="40" width="880" height="160" rx="16" stroke="{PALETTE["border"]}" fill="none"/>'
+    svg += f'<rect x="60" y="40" width="880" height="180" rx="16" stroke="{PALETTE["border"]}" fill="none"/>'
     svg += f'<ellipse cx="880" cy="120" rx="160" ry="60" fill="url(#rad{svgid})"/>'
     svg += text_to_paths(proj['name'], 'bold', 30, 90, 90, PALETTE['text'])[0]
     if proj.get('chip'):
@@ -342,12 +357,13 @@ def gen_project(fname, proj):
         chip_x = 90 + len(proj['name']) * 15 + 24
         svg += f'<rect x="{chip_x}" y="74" width="{chip_w}" height="20" rx="10" stroke="{C3}" fill="none"><animate attributeName="opacity" values="0.45;1;0.45" dur="2.6s" repeatCount="indefinite"/></rect>'
         svg += text_to_paths(proj['chip'], 'jb', 9, chip_x + 10, 86, C3)[0]
-    svg += text_to_paths(proj['desc'], 'inter', 13, 90, 120, PALETTE['text'])[0]
+    for i, line in enumerate(wrap_text(proj['desc'], 'inter', 13, 670)):
+        svg += text_to_paths(line, 'inter', 13, 90, 120 + i * 18, PALETTE['text'])[0]
     cx = 90
     for tag in proj['tags']:
         tag_w = len(tag) * 6 + 20
-        svg += f'<rect x="{cx}" y="155" width="{tag_w}" height="22" rx="11" stroke="{PALETTE["border"]}" fill="none"/>'
-        svg += text_to_paths(tag, 'jb', 10, cx + 12, 169, PALETTE['muted'])[0]
+        svg += f'<rect x="{cx}" y="185" width="{tag_w}" height="22" rx="11" stroke="{PALETTE["border"]}" fill="none"/>'
+        svg += text_to_paths(tag, 'jb', 10, cx + 12, 199, PALETTE['muted'])[0]
         cx += tag_w + 10
     if proj['name'] == 'Persona.AI':
         for i in range(6):
@@ -356,15 +372,19 @@ def gen_project(fname, proj):
         svg += f'<rect x="800" y="90" width="42" height="52" rx="6" stroke="{PALETTE["border"]}" fill="none"/>'
         svg += f'<circle cx="870" cy="98" r="9" stroke="{C1}" fill="none"/><circle cx="910" cy="116" r="9" stroke="{C2}" fill="none"/><circle cx="870" cy="134" r="9" stroke="{C3}" fill="none"/>'
         svg += f'<polyline points="865,134 870,139 879,130" stroke="{C3}" fill="none" stroke-width="1.5"><animate attributeName="stroke-dasharray" values="0,16;16,0" dur="2s" repeatCount="indefinite"/></polyline>'
-    elif proj['name'] == 'SecureWays':
-        svg += f'<rect x="780" y="100" width="150" height="70" rx="6" stroke="{PALETTE["border"]}" fill="none"/>'
-        svg += f'<rect x="790" y="110" width="26" height="16" rx="3" stroke="{C1}"><animateTransform attributeName="transform" type="translate" values="0,0;80,0;-10,0" dur="8s" repeatCount="indefinite"/></rect>'
-        svg += f'<rect x="840" y="130" width="32" height="18" rx="3" stroke="{C2}"><animateTransform attributeName="transform" type="translate" values="0,0;-40,0;40,0" dur="9s" repeatCount="indefinite"/></rect>'
-        svg += f'<rect x="810" y="125" width="30" height="17" rx="3" stroke="{C3}" opacity="0.7"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></rect>'
-    elif proj['name'] == 'Finways':
-        svg += f'<circle cx="800" cy="120" r="7" stroke="{C1}" fill="none"/><circle cx="860" cy="100" r="7" stroke="{C2}" fill="none"/><circle cx="920" cy="120" r="7" stroke="{C3}" fill="none"/><circle cx="860" cy="140" r="7" stroke="{PALETTE["muted"]}" fill="none"/>'
-        svg += f'<line x1="807" y1="118" x2="853" y2="102" stroke="{C1}" stroke-width="1.5"><animate attributeName="stroke-dasharray" values="0,70;70,0" dur="3s" repeatCount="indefinite"/></line>'
-        svg += f'<line x1="867" y1="102" x2="913" y2="118" stroke="{C2}" stroke-width="1.5"><animate attributeName="stroke-dasharray" values="0,70;70,0" dur="3.2s" repeatCount="indefinite"/></line>'
+    elif proj['name'] == 'bq-cost-guard':
+        svg += f'<path d="M 812 82 L 840 92 L 840 118 Q 840 140 812 152 Q 784 140 784 118 L 784 92 Z" stroke="{C1}" fill="none" stroke-width="1.5"/>'
+        svg += f'<path d="M 802 118 L 810 128 L 826 106" stroke="{C3}" fill="none" stroke-width="2"><animate attributeName="stroke-dasharray" values="0,40;40,0" dur="2.4s" repeatCount="indefinite"/></path>'
+        svg += f'<rect x="858" y="104" width="72" height="6" rx="3" fill="{PALETTE["border"]}"/>'
+        svg += f'<rect x="858" y="104" width="0" height="6" rx="3" fill="url(#g{svgid})"><animate attributeName="width" values="0;72;72;0" keyTimes="0;0.3;0.8;1" dur="5s" repeatCount="indefinite"/></rect>'
+        for i in range(4):
+            svg += f'<rect x="{858+i*18}" y="122" width="10" height="{8+i*3}" rx="2" fill="{C2}" opacity="0.6"><animate attributeName="height" values="{4+i};{12+i*3};{4+i}" dur="{1.4+i*0.2:.1f}s" repeatCount="indefinite"/></rect>'
+    elif proj['name'] == 'schema-drift-watch':
+        for col_x, tint in ((780, C1), (872, C2)):
+            for j, bar_w in enumerate((52, 34, 60, 44)):
+                svg += f'<rect x="{col_x}" y="{94+j*16}" width="{bar_w}" height="6" rx="3" fill="{tint}" opacity="0.5"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="{2+j*0.3:.1f}s" repeatCount="indefinite"/></rect>'
+        svg += f'<path d="M 846 122 L 864 122" stroke="{C3}" stroke-width="2" fill="none"><animate attributeName="stroke-dasharray" values="0,20;20,0" dur="2s" repeatCount="indefinite"/></path>'
+        svg += f'<circle cx="855" cy="122" r="3" fill="{C3}" filter="url(#glow{svgid})"><animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/></circle>'
     svg += '</g>'
     svg += dash_border(w, h, svgid)
     return svg + svg_end()

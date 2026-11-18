@@ -42,28 +42,26 @@
     {
       "file": "project-persona.svg",
       "name": "Persona.AI",
-      "chip": "Live",
-      "desc": "Browser-based AI communication coaching with WebRTC and LLMs",
-      "tags": ["TypeScript", "WebRTC", "LLM"]
+      "desc": "An advanced AI-powered communication coaching platform utilizing WebRTC streams and LLMs for contextual speech feedback. Built with TypeScript.",
+      "tags": ["TypeScript"]
     },
     {
       "file": "project-priorauth.svg",
       "name": "PriorAuth",
-      "chip": "48h hackathon",
-      "desc": "3-tool MCP pipeline for prior authorization workflows",
-      "tags": ["Python", "MCP"]
+      "desc": "Simulated production healthcare application executing a 3-tool MCP pipeline to automate medical prior authorization forms.",
+      "tags": ["Python"]
     },
     {
-      "file": "project-secureways.svg",
-      "name": "SecureWays",
-      "desc": "YOLOv8 anomaly detection for traffic video",
-      "tags": ["Python", "YOLOv8", "Jupyter"]
+      "file": "project-bq-cost-guard.svg",
+      "name": "bq-cost-guard",
+      "desc": "MCP server that estimates BigQuery query cost via dry run and flags wasteful queries",
+      "tags": ["TypeScript"]
     },
     {
-      "file": "project-finways.svg",
-      "name": "Finways",
-      "desc": "AI layer for decentralized transaction routing",
-      "tags": ["HTML", "JavaScript"]
+      "file": "project-schema-drift-watch.svg",
+      "name": "schema-drift-watch",
+      "desc": "Detect added, removed and retyped fields between two JSON schemas and classify each change as safe or breaking for a data warehouse.",
+      "tags": ["Python"]
     }
   ],
   "contacts": {
