@@ -63,13 +63,6 @@ I build intelligent, production-ready applications that bridge AI/ML models with
 
 ## Featured Projects
 
-<p align="center">
-  <img src="assets/project-persona.svg" alt="Animated Persona.AI project card with an audio waveform" width="100%"/>
-  <img src="assets/project-priorauth.svg" alt="Animated PriorAuth project card with a connected workflow" width="100%"/>
-  <img src="assets/project-bq-cost-guard.svg" alt="Animated bq-cost-guard project card with a cost meter" width="100%"/>
-  <img src="assets/project-schema-drift-watch.svg" alt="Animated schema-drift-watch project card with a schema diff" width="100%"/>
-</p>
-
 | Project | Description | Tech |
 | :------- | :----------- | :--- |
 | [**Persona.AI**](https://github.com/yashas004/Persona.AI) | An advanced AI-powered communication coaching platform utilizing WebRTC streams and LLMs for contextual speech feedback. Built with TypeScript. | `TypeScript` |
